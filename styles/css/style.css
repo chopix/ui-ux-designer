@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: normal;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Gilroy';
+  font-weight: medium;
+  color: #070707;
+}
+
+.container {
+  max-width: 943px;
+  margin: 0 auto;
+}
+
+* {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.navbar {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 89px;
+  border-bottom: 1.5px solid #828282;
+}
+
+.navbar-links a {
+  color: #828282;
+}
+
+.navbar-links a:hover {
+  color: #070707;
+}
+
+.header-info {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header-name {
+  font-size: 47.3392px;
+  font-weight: 700;
+}
+
+.header-profession {
+  font-size: 18px;
+  color: #070707;
+}
+
+.header-pointer {
+  font-size: 16px;
+  color: #828282;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-weight: 700;
+  text-transform: uppercase;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.header-img {
+  margin-top: 50px;
+  margin-bottom: 104px;
+}
+
+.section-about {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 107px;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.about-p {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.skills {
+  padding-top: 91px;
+  text-align: center;
+  padding-bottom: 111px;
+}
+
+.skills-header {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.skills-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skills-programm {
+  margin-top: 34.5px;
+  font-size: 18px;
+}
+
+.skills-image {
+  margin-top: 84px;
+}
+
+.portfolio {
+  background-color: #F6F6F6;
+  padding-top: 113px;
+  text-align: center;
+  padding-bottom: 96px;
+}
+
+.portfolio p {
+  text-decoration: underline;
+  margin-top: 45px;
+  margin-bottom: 99px;
+  font-size: 18px;
+}
+
+.portfolio-header {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 47px;
+}
+
+.footer {
+  padding-top: 114px;
+  text-align: center;
+}
+
+.footer-header {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.footer-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.header-eng {
+  color: #000;
+}
+
+.button {
+  margin-left: 384px;
+  margin-top: 30px;
+  background: #070707;
+  width: 181px;
+  padding: 21px 21px;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.button a {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #383838;
+}
+
+.footer-icons {
+  max-width: 343px;
+  margin: 0 auto;
+  margin-top: 86px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-last-content {
+  margin-top: 45px;
+  padding-bottom: 123px;
+}
+
+.footer-last-content p {
+  font-size: 14px;
+  color: #828282;
+}
