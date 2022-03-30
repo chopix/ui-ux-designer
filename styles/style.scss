@@ -152,8 +152,8 @@ body {
     color: #000;
 }
 
-.button {
-    margin-left: 384px;
+.button-wrapper {
+    margin: auto;
     margin-top: 30px;
     background: #070707;
     width: 181px;
@@ -203,6 +203,7 @@ body {
 
 
 
+
 @media screen and (max-width: 991px) {
     .container {
         width: 720px;
@@ -212,11 +213,6 @@ body {
     }
     .portfolio img {
         width: 720px;
-    }
-    .button {
-        margin: 0;
-        margin-top: 30px;
-        margin-left: 270px;
     }
 }
 @media screen and (max-width: 720px) {
@@ -247,18 +243,11 @@ body {
     .skills-image {
         width: 540px;
     }
-    .button {
-        margin: 0;
-        margin-top: 30px;
-        margin-left: 180px;
-    }
     .skills-image {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
-
-    }
+        align-items: center    }
     .skills-image img {
         width: 166.46px;
     }
@@ -289,18 +278,11 @@ body {
     .skills-image {
         width: 100%;
     }
-    .button {
-        margin: 0;
-        margin-top: 30px;
-        margin-left: 105px;
-    }
     .skills-image {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
-
-    }
+        align-items: center    }
     .skills-image img {
         width: 166.46px;
     }
@@ -312,20 +294,5 @@ body {
     }
     .skills-image img:nth-child(4) {
         margin-top: 82px;
-    }
-}
-@media screen and (max-width: 375px) {
-    .button {
-        margin: 0;
-        margin-top: 30px;
-        margin-left: 82px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .button {
-        margin: 0;
-        margin-top: 30px;
-        margin-left: 55px;
     }
 }
